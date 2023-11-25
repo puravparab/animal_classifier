@@ -1,0 +1,9 @@
+# Conda
+conda/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
