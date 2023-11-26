@@ -7,3 +7,7 @@ __pycache__/
 *.pyz
 *.pyw
 *.pyc
+
+# This project
+datasets/
+models/
