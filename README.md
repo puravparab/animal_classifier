@@ -10,4 +10,4 @@ conda install pytorch torchvision -c pytorch
 ```
 
 Download the dataset from hugging face into /datasets/animals directory
-https://huggingface.co/datasets/purav/animals
+https://www.kaggle.com/datasets/npurav/animal-classification-dataset
