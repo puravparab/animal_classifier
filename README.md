@@ -1,3 +1,5 @@
+This is image classification model trained using convolutional neural networks to classify animal images.
+
 ## SETUP
 
 Clone repository
@@ -23,26 +25,38 @@ conda install pytorch torchvision -c pytorch
 
 Run jupyter notebook
 ```
-cd notebooks/pytorch
+cd notebooks
 jupyter notebook
 ```
 
 ## DATASET
 
 Download the dataset from kaggle into /datasets/animals directory
-https://www.kaggle.com/datasets/npurav/animal-classification-dataset
+
+- 117 classes: https://www.kaggle.com/datasets/npurav/animals
+- 151 classes: https://www.kaggle.com/datasets/npurav/animal-classification-dataset
 
 ## RESULTS
 
-1. 450K CNN
+1. CNN Small
 
-- Params: 449125
-- Training Set: 138420 images
+- Params: 449,125
+- Training Set: 138,420 images
 - Number of classes: 117
 - Accuracy: 86%
 - Test Loss: 0.4769
 
-![Loss curve](images/AC450K/AC450K.png)
+![Loss curve](images/ACsmall/loss.png)
+
+1. CNN Medium
+
+- Params: 4,577,121
+- Training Set: 138,420 images
+- Number of classes: 117
+- Accuracy: 97%
+- Test Loss: 0.09085460033824468
+
+![Loss curve](images/ACmed/loss.png)
 
 
 
