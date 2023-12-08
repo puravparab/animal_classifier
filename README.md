@@ -38,23 +38,36 @@ Download the dataset from kaggle into /datasets/animals directory
 
 ## RESULTS
 
-1. CNN Medium
+1. CNN Large
+
+- Params: 22,021,469
+- Training Set: 138,420 images
+- Number of classes: 117
+- Accuracy: 98%
+- Test Loss: 0.0415
+- Epochs: 20
+
+![Loss curve](images/AClarge/loss.png)
+
+2. CNN Medium
 
 - Params: 4,577,121
 - Training Set: 138,420 images
 - Number of classes: 117
 - Accuracy: 97%
 - Test Loss: 0.090
+- Epochs trained: 20
 
 ![Loss curve](images/ACmed/loss.png)
 
-2. CNN Small
+3. CNN Small
 
 - Params: 449,125
 - Training Set: 138,420 images
 - Number of classes: 117
 - Accuracy: 86%
 - Test Loss: 0.4769
+- Epochs trained: 40
 
 ![Loss curve](images/ACsmall/loss.png)
 
